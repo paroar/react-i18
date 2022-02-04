@@ -1,0 +1,24 @@
+{
+  "flag": "🇪🇸",
+  "title": "título",
+  "subtitle": "subtítulo",
+  "nested": {
+    "header": "Anidados",
+    "title": "título anidado",
+    "subtitle": "subtítulo anidado"
+  },
+  "default": {
+    "header": "Por defecto"
+  },
+  "interpolation": {
+    "header": "Interpolación",
+    "simple": "{{what}} es {{how}}",
+    "complex": "Soy {{user.name}} {{user.lastName}}"
+  },
+  "plural": {
+    "header": "Pluralización",
+    "apple_zero": "Ana tiene {{count}} manzanas 👩‍⚕️",
+    "apple_one": "Ana tiene {{count}} manzana 🍎",
+    "apple_other": "Ana tiene {{count}} manzanas 🍎🍎🍎"
+  }
+}

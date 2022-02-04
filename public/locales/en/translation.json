@@ -1,0 +1,24 @@
+{
+  "flag": "🇺🇸",
+  "title": "title",
+  "subtitle": "subtitle",
+  "nested": {
+    "header": "Nested",
+    "title": "nested title",
+    "subtitle": "nested subtitle"
+  },
+  "default": {
+    "header": "Default"
+  },
+  "interpolation": {
+    "header": "Interpolation",
+    "simple": "{{what}} is {{how}}",
+    "complex": "I am {{user.name}} {{user.lastName}}"
+  },
+  "plural": {
+    "header": "Pluralization",
+    "apple_zero": "Anne has {{count}} apples 👩‍⚕️",
+    "apple_one": "Anne has {{count}} apple 🍏",
+    "apple_other": "Anne has {{count}} apples 🍏🍏🍏"
+  }
+}
